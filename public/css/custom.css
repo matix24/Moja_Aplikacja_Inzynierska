@@ -1,0 +1,138 @@
+/* style for button add, delete; for boxes */
+.btn-group-custom
+{
+  float: right;
+}
+
+/* style for error message */
+.flash-message {
+    position: fixed;
+    top: 70px;
+    right: 0px;
+    margin-right: 10%;
+    z-index: 99999;
+}
+
+
+/* space under weight in loading instruction modalWaresBoxesAdd.blade.php */
+.row-custom-size
+{
+  padding-bottom: 15px;
+}
+
+/* center checkbox in td in disposition */
+input[type=checkbox] {
+    margin: 0 auto;
+    /*display: table;*/
+}
+
+.float-custom
+{
+  float: right;
+}
+
+/* style for button disposition add, edit, delete and weight in footer */
+.row-custom-style
+{
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+/* style for button employee and date loading */
+.row-custom-style-header
+{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/* style for main page */
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+    z-index: 9999;
+}
+.links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.custom-padding
+{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+/* xs */
+@media all and (max-width: 767px)
+{
+    .custom-responsive-first
+    {
+      text-align: center;
+    }
+    .custom-responsive-center
+    {
+      text-align: center;
+    }
+    .custom-responsive-second
+    {
+      text-align: center;
+    }
+}
+
+/* sm */
+@media all and (min-width: 768px)
+{
+  .custom-responsive-first
+  {
+    text-align: left;
+
+  }
+  .custom-responsive-center
+  {
+    text-align: center;
+  }
+  .custom-responsive-second
+  {
+    text-align: right;
+  }
+
+}/* 768 */
+
+/* md */
+@media all and (min-width: 992px)
+{
+  .custom-responsive-first
+  {
+    text-align: left;
+  }
+  .custom-responsive-center
+  {
+    text-align: center;
+  }
+  .custom-responsive-second
+  {
+    text-align: right;
+  }
+}
+/* lg */
+@media all and (min-width: 1200px)
+{
+  .custom-responsive-first
+  {
+    text-align: left;
+  }
+  .custom-responsive-center
+  {
+    text-align: center;
+  }
+  .custom-responsive-second
+  {
+    text-align: right;
+  }
+}
