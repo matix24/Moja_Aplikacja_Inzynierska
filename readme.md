@@ -16,9 +16,16 @@ The application was programmed with PHP scripting language, employing Laravel fr
 </ul>
 
 ### Demo Live
-
-
-
+<ul>
+    <li>URL: http://szumiela.com.pl/inzynier/public/</li>
+    <li>PASS for boss</li>
+    <li>
+     <ul>
+        <li>email: szumiela@example.pl</li>
+        <li>password: 123456</li> 
+     </ul>
+    </li>
+</ul>
 
 ## Built With
 
